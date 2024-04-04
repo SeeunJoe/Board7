@@ -38,6 +38,11 @@
 	<div>&nbsp;</div>
 	<hr />
 	<div>&nbsp;</div>
+    <div><a href="/BoardPaging/List?menu_id=MENU01">게시글 목록(페이징)</a></div>
+	<div><a href="/BoardPaging/WriteForm">게시글 등록(페이징)</a></div>
+	<div>&nbsp;</div>
+	<hr />
+	<div>&nbsp;</div>
 	
 	<div><a href="/loginForm">로그인</a></div>
 	<c:if test="${sessionScope.login == null ||login =='' }"/>
